@@ -41,3 +41,19 @@ header{
   height: 50px;
   background-color: yellow;
 }
+
+.nav-top-left ul li{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+nav{
+  width: 30%;
+  height: 50px;
+  background-color: orange;
+}
+
+.nav-top-right ul li{
+  display: inline-block;
+  margin-top: 20px;
+}
