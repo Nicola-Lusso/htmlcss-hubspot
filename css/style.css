@@ -174,3 +174,13 @@ section .nav-down{
 .jumbotron .get-start{
   font-size: 12px;
 }
+
+.barra{
+  height: 80px;
+  width: 100%;
+  background-color: #afebe4;
+  border-top: 4px solid #33475B;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
