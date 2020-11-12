@@ -31,19 +31,19 @@ body{
 
 .btn-white{
   background-color: white;
-  border-color: rgb(227, 108, 57);
-  color: rgb(227, 108, 57);
+  border-color: #ff7a59;
+  color: #ff7a59;
 }
 
 .btn-orange{
-  background-color: rgb(227, 108, 57);
-  border-color: rgb(227, 108, 57);
+  background-color: #ff7a59;
+  border-color: #ff7a59;
   color: white;
 }
 
 .btn-orange-big{
-  background-color: rgb(227, 108, 57);
-  border-color: rgb(227, 108, 57);
+  background-color: #ff7a59;
+  border-color: #ff7a59;
   color: white;
   padding: 10px;
   border-radius: 5px;
