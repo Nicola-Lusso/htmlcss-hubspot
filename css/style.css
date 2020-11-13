@@ -197,13 +197,63 @@ ul li a{
 }
 
 main{
-
   width: 100%;
-  background-color: aqua;
+  background-color: #f5f8fa;
 }
 
 .cubo{
- width: 100%;
- margin-top: 30px;
- transform: translateX(100%);
+  width: 35%;
+  margin-top: 30px;
+  margin-left: 30%;
+}
+
+.main-top h2{
+  text-align: center;
+  font-size: 40px;
+  color: #33475B;
+}
+
+.main-top{
+  text-align: center;
+  font-size: 20px;
+  color: #33475B;
+}
+
+.box-white{
+  height: 250px;
+  width: 60%;
+  margin: auto;
+  margin-top: 80px;
+  /* padding: 5%; */
+  box-shadow: 0 0 6px rgb(50, 78, 98);
+  background-color: white;
+
+}
+
+.icon-book{
+ width: 150px;
+ margin: 30px 40px;
+}
+
+.icon-book a{
+  margin-top: 30px;
+}
+
+.box-white-text h3{
+  margin-top: 30px;
+  font-size: 30px;
+  color: #33475B;
+}
+
+.box-white-text p{
+  margin-top: 30px;
+  margin-right: 20%;
+  font-size: 15px;
+  color: #33475B;
+  line-height: 1.6;
+}
+
+.btn-book{
+  margin-top: 50px;
+  margin-left: 20px;
 }
