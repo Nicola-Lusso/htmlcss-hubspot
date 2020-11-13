@@ -67,14 +67,24 @@ ul li a{
   background-color: #fff3ee;
 } */
 
-section .nav-top{
+/* section .nav-top{
   position: fixed;
-}
+} */
+
+
+
 .nav-top{
+  width: 100%;
   height: 60px;
   background-color: #EAF0F6;
   border-bottom: 1px solid #33475B;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
+
+
 
 .nav-top-left{
   width:40%;
@@ -88,15 +98,12 @@ section .nav-top{
   margin-left: 10px;
 }
 
-.nav-top-left i:first-child{
+.nav-top-left .fa-chevron-down{
   border-right: 2px solid #33475B;
   padding-right: 10px;
 }
 
-/* nav{
-  width: 30%;
-  height: 50px;
-} */
+
 
 .nav-top-right ul li{
   display: inline-block;
@@ -104,14 +111,16 @@ section .nav-top{
   margin-left: 10px;
 }
 
-section .nav-down{
-  width: 100;
+.nav-down{
+  width: 100%;
+  margin-top: 55px;
   background-color: white;
 
 }
 
 .nav-bottom{
   background-color: white;
+
 }
 
 .nav-bottom-left{
@@ -148,6 +157,7 @@ section .nav-down{
   background-repeat: no-repeat;
   background-position: right;
   border-bottom: 3px solid #33475B;
+  position: relative;
 }
 
 .jumbotron h1{
@@ -175,12 +185,25 @@ section .nav-down{
   font-size: 12px;
 }
 
-.barra{
+.jumbotron .barra{
   height: 80px;
   width: 100%;
   background-color: #afebe4;
   border-top: 4px solid #33475B;
   position: absolute;
-  bottom: 10px;
+  bottom: 0;
   left: 0;
+
+}
+
+main{
+
+  width: 100%;
+  background-color: aqua;
+}
+
+.cubo{
+ width: 100%;
+ margin-top: 30px;
+ transform: translateX(100%);
 }
