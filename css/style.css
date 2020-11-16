@@ -222,7 +222,7 @@ ul li a{
 
 .box-white{
   height: 250px;
-  width: 60%;
+  width: 100%;
   margin: auto;
   margin-top: 80px;
   /* padding: 5%; */
@@ -292,8 +292,6 @@ ul li a{
 }
 
 .three-box{
-  height: 100%;
-  width: 75%;
   margin: 50px auto;
 }
 
@@ -327,6 +325,7 @@ ul li a{
   margin-top: 25px;
   line-height: 30px;
   padding: 2%;
+  height: 200px;
 }
 
 .info-text hr{
@@ -502,7 +501,7 @@ ul li a{
   margin-top: 50px;
 }
 
-.start-growing h2,p,ul{
+.start-growing ul{
   padding-bottom: 50px;
   list-style: none;
   color: #33475B;
@@ -588,18 +587,19 @@ margin-right: 145px;
   width: 100%;
   left: 50%;
   color: white;
+  text-align: center;
 }
 
 .lingue ul {
   padding-bottom: 20px;
   color: white;
-  display: inline;
+  margin: 0 auto;
 }
 
-.lingue a {
-  display: inline;
-
+.lingue li, .footer-bottom-right li {
+  display: inline-block;
   color: white;
+  margin: 0 10px;
 }
 
 
@@ -607,11 +607,12 @@ margin-right: 145px;
   padding: 30px 0;
 }
 
-.footer-bottom a {
+footer .container a {
   color: white;
   text-decoration: none;
 }
 
 .footer-bottom-right ul li a{
   display: inline;
+
 }
