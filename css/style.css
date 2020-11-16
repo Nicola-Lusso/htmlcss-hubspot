@@ -530,3 +530,88 @@ ul li a{
   width: 300px;
   padding-top: 40px;
 }
+
+footer {
+  background-color: #33475B;
+  color: white;
+}
+
+/* .container {
+  position: relative;
+} */
+
+.link-box {
+  padding-bottom: 100px;
+}
+
+.footer-top .colonna {
+margin-right: 145px;
+
+}
+
+.footer-top h4 {
+  padding: 30px 0;
+}
+
+.footer-top .container .link-box ul li {
+  display: block;
+  padding-bottom: 20px;
+  margin-right: 0;
+}
+
+.footer-top i {
+  padding-right: 23px;
+}
+
+.colonna ul li a{
+  color: white;
+  font-size: 15px;
+}
+
+.colonna:last-child {
+  margin-right: 0;
+}
+
+
+.link-box .colonna ul li:last-child {
+  padding-bottom: 0;
+}
+
+.btn-footer {
+  color: #33475B ;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: lightgrey;
+}
+
+.lingue {
+  width: 100%;
+  left: 50%;
+  color: white;
+}
+
+.lingue ul {
+  padding-bottom: 20px;
+  color: white;
+  display: inline;
+}
+
+.lingue a {
+  display: inline;
+
+  color: white;
+}
+
+
+.footer-bottom {
+  padding: 30px 0;
+}
+
+.footer-bottom a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom-right ul li a{
+  display: inline;
+}
